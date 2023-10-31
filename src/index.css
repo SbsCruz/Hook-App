@@ -1,0 +1,10 @@
+body {
+  padding: 20px;
+  background-color: #21232A;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button { 
+  margin-right: 10px;
+}
