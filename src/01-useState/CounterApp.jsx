@@ -16,11 +16,13 @@ return (
     <h1>COUNTER: {counter1}</h1>
     <h1>COUNTER: {counter2}</h1>
     <h1>COUNTER: {counter3}</h1>
-    <button onClick={()=>setCounter({
-        ...counter,
+    <button className="btn" onClick={()=>setCounter({
+        ...counter, // spread para que los otros counters no se vean afectados
         counter1: counter1+1,
+
+
     })}>+1</button>
-    {console.log(counter1)}
+    {console.log(counter2)}
 </>
 )
 }
