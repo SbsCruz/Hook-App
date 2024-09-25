@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import { BrowserRouter } from 'react-router-dom'
 // import { CounterCustomHook } from './01-useState/CounterCustomHook'
 // import { SimpleForm } from './02-useEffect/SimpleForm'
 // import {CustomForm } from './02-useEffect/CustomForm'
@@ -15,13 +16,15 @@ import './index.css'
 // import { HooksApp } from './HooksApp'
 // import { CounterApp } from './01-useState/CounterApp'
 // import './08-useReducer/introReducer'
-
-import { ToDoApp } from './08-useReducer/ToDoApp'
+// import { ToDoApp } from './08-useReducer/ToDoApp'
+import { MainApp } from './09-useContext/MainApp'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+    <BrowserRouter>
+        <MainApp />
+    </BrowserRouter>
     // <React.StrictMode>
-        <ToDoApp />
     // </React.StrictMode>
 
 )
