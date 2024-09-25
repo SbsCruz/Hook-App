@@ -11,21 +11,17 @@ import './index.css'
 // import { Memorize } from './06-memos/Memorize'
 // import { MemoHook } from './06-memos/MemoHook'
 // import { CallbackHook } from './06-memos/CallbackHook'
-import { Padre } from './07-tarea-memo/Padre'
-
-
-
-
-
-
-
-
+// import { Padre } from './07-tarea-memo/Padre'
 // import { HooksApp } from './HooksApp'
 // import { CounterApp } from './01-useState/CounterApp'
+// import './08-useReducer/introReducer'
+
+import { ToDoApp } from './08-useReducer/ToDoApp'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-
-    <Padre/>
+    // <React.StrictMode>
+        <ToDoApp />
+    // </React.StrictMode>
 
 )
